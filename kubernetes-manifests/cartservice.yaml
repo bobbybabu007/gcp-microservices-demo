@@ -37,11 +37,11 @@ spec:
           value: "redis-cart:6379"
         resources:
           requests:
-            cpu: 200m
-            memory: 64Mi
+            cpu: 700m
+            memory: 280Mi
           limits:
-            cpu: 300m
-            memory: 128Mi
+            cpu: 800m
+            memory: 400Mi
         readinessProbe:
           initialDelaySeconds: 15
           exec:
